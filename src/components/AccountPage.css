@@ -1,0 +1,107 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .stock-card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stock-card {
+    width: 650px;
+    height: 50px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-info {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .stock-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .stock-code {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .stock-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #999;
+  }
+  .stock-quantity {
+    text-align: left;
+    font-size: 14px;
+  }
+  .stock-eval-amount {
+    margin-left: auto;
+    font-size: 20px;
+  }
+
+  .stock-quantity,
+  .stock-eval-amount,
+  .stock-eval-goL {
+    margin-bottom: 5px;
+  }
+  
+  .stock-eval-goL {
+    font-weight: bold;
+    font-size: small;
+    margin-top: -10px;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  
+  .account-balance-container {
+    padding: 10px 10px ;
+  }
+  
+  .account-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid #f2f4f6;
+    border-bottom: 1px solid #f2f4f6;
+  }
+  
+  .total-assets {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-right: 8px;
+  }
+  
+  .balance {
+    font-size: 28px;
+    color: red;
+  }
+  
+  .currency {
+    margin-left: 4px;
+    font-size: 8px;
+    color: darkgrey;
+  }
+  

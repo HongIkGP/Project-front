@@ -1,10 +1,14 @@
-const Header = () => {
-    const wrapper = {
-    }
+import React from 'react';
+import './Header.css';
 
-    return <div className="wrapper">
-
-    </div>
+const Header: React.FC = () => {
+  return (
+    <header className="header">
+        <div className="header-container">
+            <div className="logo">HIMS</div>
+        </div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
